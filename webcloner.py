@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import re
 
+os.system("title WebCloner Revenant Leakers")
+
 def sanitize_filename(filename):
     return re.sub(r'[<>:"/\\|?*]', '_', filename)
 
